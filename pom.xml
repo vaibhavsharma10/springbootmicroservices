@@ -139,6 +139,7 @@
 					</processTypes>
 				</configuration>
 			</plugin>
+			
 
 		</plugins>
 	</build>
