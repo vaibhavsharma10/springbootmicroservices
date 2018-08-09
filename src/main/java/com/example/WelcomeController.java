@@ -9,6 +9,6 @@ public class WelcomeController {
 	
 	@GetMapping("/helloservice2")
 	public @ResponseBody String hello() {
-		return "Hello Service Testing Again";
+		return "Checking github Webhook";
 	}
 }
