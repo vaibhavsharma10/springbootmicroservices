@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
 	
 	@GetMapping("/helloservice2")
-	public @ResponseBody String hello() {
+	public @ResponseBod String hello() {
 		return "I am testing";
 	}
 }
