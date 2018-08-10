@@ -9,6 +9,6 @@ public class WelcomeController {
 	
 	@GetMapping("/helloservice2")
 	public @ResponseBody String hello() {
-		return "I am testing Jenkins";
+		return "I am testing Jenkins again";
 	}
 }
